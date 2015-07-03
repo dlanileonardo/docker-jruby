@@ -1,5 +1,5 @@
 FROM java:8-jre
-MAINTAINER Azuki <support@azukiapp.com>
+MAINTAINER Dlani Leonardo <dlanileonardo@gmail.com>
 
 ENV JRUBY_VERSION 1.7.20
 RUN mkdir /opt/jruby \
