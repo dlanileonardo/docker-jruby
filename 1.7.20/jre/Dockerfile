@@ -16,6 +16,9 @@ RUN gem install bundler \
 	&& bundle config --global path "$GEM_HOME" \
 	&& bundle config --global bin "$GEM_HOME/bin"
 
+RUN apt-get update
+RUN apt-get -y install git
+
 # don't create ".bundle" in all our apps
 ENV BUNDLE_APP_CONFIG $GEM_HOME
 
