@@ -1,6 +1,9 @@
 # `adocker` is alias to `azk docker`
 all:
 	# latest
+	adocker build -t dlanileonardo/jruby ./9.0.0.0/jre
+
+	# 1.7.20
 	adocker build -t dlanileonardo/jruby ./1.7.20/jre
 
 	# version tagged
