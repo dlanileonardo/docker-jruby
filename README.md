@@ -7,7 +7,7 @@ Versions (tags)
 ---
 
 <versions>
-- [`latest`, `9.0.1.0`](https://github.com/dlanileonardo/docker-jruby/blob/master/9.0.0.0/jre/Dockerfile)
+- [`latest`, `9.0.3.0`](https://github.com/dlanileonardo/docker-jruby/blob/master/9.0.3.0/jre/Dockerfile)
 - [`9.0.0.0`](https://github.com/dlanileonardo/docker-jruby/blob/master/9.0.0.0/jre/Dockerfile)
 - [`1.7.20-jre`, `1.7.20`](https://github.com/dlanileonardo/docker-jruby/blob/master/1.7.20/jre/Dockerfile)
 - [`1.7.20-jdk`](https://github.com/dlanileonardo/docker-jruby/blob/master/1.7.20/jdk/Dockerfile)
