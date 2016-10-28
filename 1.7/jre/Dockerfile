@@ -1,6 +1,11 @@
 FROM java:8-jre
 MAINTAINER Dlani Leonardo <dlanileonardo@gmail.com>
 
+LABEL org.label-schema.vcs-url="https://github.com/dlanileonardo/docker-jruby" \
+      org.label-schema.vendor=dlanileonardo \
+      org.label-schema.name=docker-jruby \
+      io.wikiwi.license=MIT
+
 ENV JRUBY_VERSION 1.7.19
 RUN mkdir /opt/jruby \
   && curl -sSL https://s3.amazonaws.com/jruby.org/downloads/${JRUBY_VERSION}/jruby-bin-${JRUBY_VERSION}.tar.gz \
